@@ -23,3 +23,4 @@ Later use the git commit command to commit the changes in the staging area(git c
 Use git push origin main command to push the chages to the github. This commands shows the changes in the github 
 Give the username and password asked by the push command
 To get the push command password, go to the profile -> settings -> Developer settings -> Personal access token -> Token Classic -> create new token -> Generate new personal access token (classic) -> write a note and give expiry date -> check the repo checkbox -> click on generate token. Hence the new token is generated copy and save it for the future use. The generated token can be used as password for the push command.
+Now use git pull origin main command to pull the changes made in the readmefile diectly in the github to the system where you are working(Portfolio folder)

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- <script src="https://kit.fontawesome.com/5eb2c51ffb.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <nav id="navbar" class="nav">
+        <ul>
+            <li>
+                <a href="#welcome-section">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Second Section-->
+    <section id="welcome-section">
+        <h1>Hey, I'm Haseena Syed</h1>
+        <p><i>A Masters in Information Security graduate</i></p>
+        <p class="about-extended">
+            "I am eager to apply my academic knowledge and hands-on experience to dynamic roles in software development, data analyst, network engineering, or cybersecurity. Throughout my academic journey, 
+            I have developed a strong foundation in securing information systems, network infrastructures, and software applications."
+        </p>
+        <a href="https://www.linkedin.com/in/haseenasyed7/" target="_blank" class="connect-btn">Let’s Connect</a>
+        <div class="cert-badges">
+            <a href="https://www.credly.com/badges/5e5e3db1-c5fb-460c-86c4-644340c797a5/public_url" target="_blank">
+              <img src="images/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner Badge" class="cert-badge">
+            </a>
+            <!-- <a href="#" >
+              <img src="" alt="Coming soon" class="cert-badge">
+            </a> -->
+        </div>
+          
+    </section>
+    <!-- Third Section-->
+    <section id="experience" class="experience-section">
+        <h2 class="experience-section-header"> My Experience</h2>
+        <div class="experience-grid">
+            <a href="#experience" class="experience experience-tile">
+                <h3>
+                    Research Assistant
+                </h3>
+                <p class="experience-title">University of the Cumberlands</p>
+                <p class="experience-details">
+                    Conducted research in Information Systems Security, focusing on network vulnerabilities and security protocols. Collaborated with faculty and peers to analyze data, perform penetration testing, 
+                    and contribute to academic publications. Utilized tools such as Wireshark and Metasploit to assess and enhance system security. Assisted in preparing reports and presenting findings at departmental meetings.
+                </p>
+            </a>
+        </div>
+    </section>
+    <!-- Fourth Section-->
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">My Project's</h2>
+        <div class="projects-grid">
+            <a href="#projects" class="project project-tile">
+                <p class="project-title">
+                    Cloud-Based Data Pipeline for Real-Time Analytics
+                </p>
+                <p class="project-details">
+                    Built an end-to-end data pipeline using AWS, Python, and Power BI to process and analyze real-time log data. 
+                    Automated ETL workflows reduced latency and manual effort by 40%, while dashboards enabled faster incident detection and data-driven decisions.
+                </p>
+            </a>
+            <a href="#projects" class="project project-tile">
+                <p class="project-title">
+                    Exploratory Data Analysis on Security Incident Data
+                </p>
+                <p class="project-details">
+                    Performed statistical analysis and visualizations on historical security data using Python and Excel. 
+                    Insights led to a 15% reduction in recurring incidents by influencing updated monitoring policies.
+                </p>
+            </a>
+            <a href="#projects" class="project project-tile">
+                <p class="project-title">
+                    Business Metrics Dashboard for Research Operations
+                </p>
+                <p class="project-details">
+                    Developed a dynamic Power BI dashboard integrated with SQL-based data extraction to track research KPIs. 
+                    Enhanced visibility and stakeholder engagement accelerated operational planning and reporting.
+                </p>
+            </a>
+            <a href="#projects" class="project project-tile">
+                <p class="project-title">
+                    Data-Driven Web Application for Secure User Management
+                </p>
+                <p class="project-details">
+                    Engineered a secure Spring Boot-based web application with MySQL backend and AWS integration. 
+                    Implemented role-based access control and audit logging, improving user onboarding and compliance monitoring.
+                </p>
+            </a>
+            <a href="#projects" class="project project-tile">
+                <p class="project-title">
+                    Network Traffic Analysis & Reporting Automation
+                </p>
+                <p class="project-details">
+                    Automated network traffic analysis using Wireshark and Python, generating reports on usage patterns and anomalies. 
+                    Reduced reporting time by 50% and improved detection of irregular network activity.
+                </p>
+            </a>
+        </div>
+    </section>
+    <!-- Third Section-->
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2 id="con">I'd Love To Connect With You</h2>
+            <p class="footer-text">Let me get to know more about you</p>
+        </div>
+        <div class="contact-links">
+            <!--<a href="#" target="_blank" class="btn contact-details"><i class="fab fa-instagram"></i></a>-->
+            <a id="profile-link" href="https://github.com/haseenasyed7" target="_blank" class="btn contact-details"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/haseenasyed7" target="_blank" class="btn contact-details"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:haseenasyed177@gmail.com" target="_blank" class="btn contact-details"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+    <!-- START FOOTER SECTION -->
+    <footer>
+        <p id="foot">
+            &copy; 2025, Made by
+            <a id="fot" href="https://www.linkedin.com/in/haseenasyed7/" target="_blank">Haseena Syed
+            </a>
+        </p>
+    </footer>
+    <!-- END FOOTER SECTION -->
+    <script>
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        };
+    </script>
+</body>
+</html>
